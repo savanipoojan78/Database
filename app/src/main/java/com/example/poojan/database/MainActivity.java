@@ -48,6 +48,14 @@ Button sumit,show,update,delete;
             }
         });
     }
+    public void SomeChange()
+    {
+        Toast.makeText(getApplicationContext(),"Hiii",Toast.LENGTH_SHORT).show();
+    }
+    public void SomeChange2()
+    {
+        Toast.makeText(getApplicationContext(),"Hiii,Github",Toast.LENGTH_SHORT).show();
+    }
     public void Adddata()
     {
         sumit.setOnClickListener(new View.OnClickListener() {
